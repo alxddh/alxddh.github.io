@@ -1,0 +1,26 @@
+locale: en
+title: Alexander D Huang's Homepage
+description: Enjoy writting
+url: https://alxddh.github.io
+logo: /logo.png
+date_format: "%b %d %Y"
+read_time: true
+words_per_minute: 200
+mathjax: true
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+disqus:
+  shortname: alxddh
+
+google_analytics: UA-149346707-1
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+remote_theme: alxddh/so-simple-theme@alxddh
+
+paginate: 10  # amount of posts to show per page
+paginate_path: /page:num/
