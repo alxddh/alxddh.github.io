@@ -16,9 +16,25 @@ disqus:
 
 google_analytics: UA-149346707-1
 
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/alxddh
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/alxddh
+    icon: fab fa-github-square
+  - title: Feed
+    url: feed.xml
+    icon: fas fa-rss-square
+
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 remote_theme: alxddh/so-simple-theme@alxddh
 
