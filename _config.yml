@@ -8,6 +8,25 @@ read_time: true
 words_per_minute: 200
 mathjax: true
 
+author:
+  name: Alexander D Huang
+  picture: /logo.png
+  links: 
+    - title: Twitter
+      url: https://twitter.com/alxddh
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/alxddh
+      icon: fab fa-github-square
+
+defaults:
+  - scope:
+      path: ""      
+      type: "posts"
+    values:
+      layout: "post"
+      share: true
+
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 
