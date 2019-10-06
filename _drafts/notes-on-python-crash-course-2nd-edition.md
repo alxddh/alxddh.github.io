@@ -47,3 +47,14 @@ ada lovelace
 The `f` is for *format*. F-strings were first introduced in Python 3.6.
 
 ##### Stripping Whitespace
+
+`lstrip([chars])` returns a copy of the string with leading characters removed. The `chars` argument is a string specifying the set of characters to be removed. If omitted or `None`, the chars argument defaults to removing whitespace. The `chars` argument is not a prefix; rather, all combinations of its values are stripped:
+
+```python
+>>> '   spacious   '.lstrip()
+'spacious   '
+>>> 'www.example.com'.lstrip('cmowz.')
+'example.com'
+```
+
+Besides, there are `rstrip` and `strip`, they are similar with `lstrip`.
