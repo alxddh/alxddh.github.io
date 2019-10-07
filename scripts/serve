@@ -1,2 +1,2 @@
-python scripts/set-skin.py
+# python scripts/set-skin.py
 bundle exec jekyll serve --drafts
