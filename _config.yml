@@ -43,6 +43,9 @@ footer_links:
   - title: GitHub
     url: https://github.com/alxddh
     icon: fab fa-github-square
+  - title: StackOverflow
+    url: https://stackoverflow.com/users/12177595/alxddh
+    icon: fab fa-stack-overflow
   - title: Feed
     url: feed.xml
     icon: fas fa-rss-square
