@@ -58,3 +58,5 @@ The `f` is for *format*. F-strings were first introduced in Python 3.6.
 ```
 
 Besides, there are `rstrip` and `strip`, they are similar with `lstrip`.
+
+### Chapter 3. Introducing Lists
