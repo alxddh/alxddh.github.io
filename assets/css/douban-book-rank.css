@@ -1,4 +1,5 @@
 #input-area > #search-input {
+    background: white;
     width: 61.8%;
     height: 25px;
     font-size: 20px;
@@ -6,6 +7,7 @@
 }
 
 #input-area > #search-button {
+    background: white;
     margin-top: 3px;
     height: 25px;
     font-size: 20px;
