@@ -1,0 +1,18 @@
+#input-area > #search-input {
+    width: 61.8%;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#input-area > #search-button {
+    margin-top: 3px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+progress#searching-progress {
+    background: white;
+    width: 100%;
+}
