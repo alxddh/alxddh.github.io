@@ -17,3 +17,6 @@ This chapter teaches you to build a basic FPS scene. The player can control the 
 We use a Capsule game object to represent the player here, and we need to replace the [`CapsuleCollider`](https://docs.unity3d.com/ScriptReference/CapsuleCollider.html) component with the [`CharacterController`](https://docs.unity3d.com/ScriptReference/CharacterController.html) component. Why?
 
 Both of them are inherited from [`UnityEngine.Collider`](https://docs.unity3d.com/ScriptReference/Collider.html), but `CharacterController` can let you easily control the movement of the object under the constrains of collisions. `CharacterController` does not obey the physical simulation, so it's more effective and easier to do some unrealistic behaviors.
+
+### Script component for looking around: `MouseLook`
+
