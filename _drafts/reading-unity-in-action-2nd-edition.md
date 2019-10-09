@@ -20,3 +20,57 @@ Both of them are inherited from [`UnityEngine.Collider`](https://docs.unity3d.co
 
 ### Script component for looking around: `MouseLook`
 
+`MouseLook` responses the mouse input to rotate the player. The framework of `MouseLook` looks like
+
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MouseLook : MonoBehaviour
+{
+    public enum RotationAxes 
+    {
+        MouseXAndY,
+        MouseX,
+        MouseY,
+    }
+
+    public RotationAxes axes = RotationAxes.MouseXAndY;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (axes == RotationAxes.MouseX) {
+            
+        } else if (axes == RotationAxes.MouseY) {
+        
+        } else {
+
+        }
+    }
+}
+```
+
+The rotation along the horizontal direction is very simple because the rotated angle has not limits, you just need to invoke [`Transform.Rotate()`](https://docs.unity3d.com/ScriptReference/Transform.Rotate.html):
+
+```c#
+void Update()
+{
+    if (axes == RotationAxes.MouseX) {
+        transform.Rotate(0, sensitivityHor * Input.GetAxis("Mouse X"), 0);
+    } else if (axes == RotationAxes.MouseY) {
+    
+    } else {
+
+    }
+}
+```
+
+The rotation order is Z-X-Y.
