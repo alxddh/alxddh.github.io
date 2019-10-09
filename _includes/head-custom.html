@@ -19,4 +19,23 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+<!-- config mathjax -->
+{% if site.mathjax == true %}
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+        
+        TeX: {
+            {% if site.mathjax_extensions %}
+            extensions: [
+                {% for extension in site.mathjax_extensions %}
+                    "{{ extension }}",
+                {% endfor %}
+            ]
+            {% endif %}
+        }
+    });
+</script>
+{% endif %}
+
 <!-- end custom head snippets -->
