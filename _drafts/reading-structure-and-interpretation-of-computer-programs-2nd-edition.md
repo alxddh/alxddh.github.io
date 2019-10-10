@@ -31,3 +31,13 @@ Combinations can be nested:
 > (+ (* 3 5) (- 10 6))
 19
 ```
+
+#### Naming and the Environment
+
+Defining a variable is Scheme's simplest means of abstraction, for it allows us to use simple names to refer to complex objects, for example, 
+
+```scheme
+(define circumference (* 2 pi radius))
+```
+
+The interpreter must maintain some sort of memory that keeps track of name-object pairs. They are called *environments*.
