@@ -39,5 +39,11 @@ At the normal state, both inputs of this flip-flop are set to zeros. When a *pul
 
 ### Encodings
 
-#### Representing Text
+#### Unicode
+
+> The Unicode Standard is a character coding system designed to support the worldwide interchange, processing, and display of the written texts of the diverse languages and technical disciplines of the modern world. In addition, it supports classical and historical texts of many written languages. 
+> 
+> -- [Unicode Consortium](https://home.unicode.org/)
+
+A Unicode code point is referred to by writing `U+` followed by its hexadecimal number. Unicode defines a code space from `U+0` to `U+10FFFF`, i.e. there are `0x110000` ($16^5 + 16^4 = 1114112$) code points. The code space is divided 16 planes, and each plane has `0x10000` ($16^4 = 65536$) code points. The first plane (from `U+0` to `U+FFFF`) is called the *BMP (Basic Multilingual Plane)*.
 
