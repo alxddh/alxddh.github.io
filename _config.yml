@@ -63,5 +63,3 @@ remote_theme: alxddh/so-simple-theme@alxddh
 
 paginate: 10  # amount of posts to show per page
 paginate_path: /page:num/
-
-skin: dark
