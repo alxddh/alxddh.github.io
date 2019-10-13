@@ -4,7 +4,7 @@ description: Enjoy writting
 url: https://alxddh.github.io
 logo: /logo.png
 date_format: "%b %d %Y"
-read_time: true
+read_time: false
 words_per_minute: 200
 mathjax: true
 permalink: /:year/:month/:day/:title.html
