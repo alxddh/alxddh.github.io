@@ -9,6 +9,9 @@ words_per_minute: 200
 mathjax: true
 permalink: /:year/:month/:day/:title.html
 
+exclude:
+  - scripts/
+
 author:
   name: Alexander D Huang
   picture: /logo.png
