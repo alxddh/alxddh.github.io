@@ -16,4 +16,4 @@ tags: [philosophy]
 
 1. Is there anything you would willingly die for?
 
-    Socrats was willing to die for respecting the laws of his city. (Plato, [*Crito*](https://en.wikipedia.org/wiki/Crito))
+    [Socrates](https://en.wikipedia.org/wiki/Socrates) was willing to die for respecting the laws of his city. (Plato, [*Crito*](https://en.wikipedia.org/wiki/Crito))
