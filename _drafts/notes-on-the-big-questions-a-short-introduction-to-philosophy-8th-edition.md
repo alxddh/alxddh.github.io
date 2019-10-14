@@ -12,3 +12,8 @@ tags: [philosophy]
 
 > Philosophy is all about our beliefs and attitudes about ourselves and the world. Doing philosophy, therefore, is first of all the activity of stating, as clearly and as convincingly as possible, what we believe and what we believe in.
 
+## Philosophical Questions
+
+1. Is there anything you would willingly die for?
+
+    Socrats was willing to die for respecting the laws of his city. (Plato, [*Crito*](https://en.wikipedia.org/wiki/Crito))
