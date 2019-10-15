@@ -47,3 +47,14 @@ At the normal state, both inputs of this flip-flop are set to zeros. When a *pul
 
 A Unicode code point is referred to by writing `U+` followed by its hexadecimal number. Unicode defines a code space from `U+0` to `U+10FFFF`, i.e. there are `0x110000` ($16^5 + 16^4 = 1114112$) code points. The code space is divided 16 planes, and each plane has `0x10000` ($16^4 = 65536$) code points. The first plane (from `U+0` to `U+FFFF`) is called the *BMP (Basic Multilingual Plane)*.
 
+Two common *Unicode Transformation Format*s are [UTF-8](https://en.wikipedia.org/wiki/UTF-8) and [UTF-16](https://en.wikipedia.org/wiki/UTF-16).
+
+##### UTF-8
+
+UTF-8 was originally designed by [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) and [Rob Pike](https://twitter.com/rob_pike). It is a variable width character encoding, from 1 byte to 4 bytes.
+
+{% include image name="utf-8.png" caption="The UTF-8 encoding algorithm" %}
+
+We can see that UTF-8 is compatible with ASCII because that each mapping result of code points from `U+0000` to `U+007F` is the code point itself, and it has only one byte.
+
+The parsing of UTF-8 encoded value is unambiguous: You read the object bit by bit, the number of `1`s before you meet the first `0` is the number of bytes of this object.
