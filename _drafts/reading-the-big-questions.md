@@ -38,3 +38,14 @@ For example, freedom, truth, reality, morality, love, and God. To avoid using bu
 
 ## Chapter 1. Philosophical Questions
 
+### Opening Questions
+
+> 1 . Is there anything you would willingly die for?
+
+Socrates was willing to die for the laws of his city -- See [*Crito*](http://classics.mit.edu/Plato/crito.html) by Plato.
+
+> 2 . If you had only a few minutes (a few days, twenty years) to live, what would you do with them?
+
+> 3 . What purpose does human life have that is not to be found in the life of a cow or an insect? What is the purpose of your life?
+
+> 4 . Do you believe in God?
