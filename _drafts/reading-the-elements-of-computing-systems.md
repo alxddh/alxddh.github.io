@@ -1,5 +1,5 @@
 ---
-title: "Reading "The Elements of Computing Systems""
+title: "Reading \"The Elements of Computing Systems\""
 categories: [Reading]
 tags: [computer system]
 ---

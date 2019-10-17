@@ -1,5 +1,5 @@
 ---
-title: "Reading "Principles of Computer System Design""
+title: "Reading \"Principles of Computer System Design\""
 categories: [Reading]
 tags: [computer system]
 ---
