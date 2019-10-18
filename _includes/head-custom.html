@@ -38,4 +38,17 @@
 </script>
 {% endif %}
 
+<!-- skin -->
+<script>
+    var hours = (new Date()).getHours();
+    var node = document.createElement('link');
+    node.rel = 'stylesheet';
+    if (hours >= 6 && hours < 18) {
+        node.href = "{{ '/assets/css/skins/light.css' | relative_url }}";
+    } else {
+        node.href = "{{ '/assets/css/skins/dark.css' | relative_url }}";
+    }
+    document.getElementsByTagName('head')[0].appendChild(node);
+</script>
+
 <!-- end custom head snippets -->
