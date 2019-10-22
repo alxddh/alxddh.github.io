@@ -44,3 +44,25 @@ Git refers the contents you stage as objects. The type of them is *[blob](https:
 
 #### Tree Objects
 
+A *tree* object corresponds to a UNIX directory. It contains one or more entries, each of which is the SHA-1 hash of a blob or subtree with its associated mode, type, and filename.
+
+Git creates a tree by taking the state of `index` (the staging area), so if you want to create a tree, you need to update the staging area first. For example,
+
+``` bash
+$ git update-index --add --cacheinfo 100644 \
+  83baae61804e65cc73a7201a7252750c76066a30 test.txt
+```
+
+Then, you can create a tree directly:
+
+```bash
+$ git write-tree
+d8329fc1cc938780ffdd9f94e0d364e0ea74f579
+```
+
+Check it out:
+
+```bash
+$ git cat-file -p d8329fc1cc938780ffdd9f94e0d364e0ea74f579
+100644 blob 83baae61804e65cc73a7201a7252750c76066a30      test.txt
+```
