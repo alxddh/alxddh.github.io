@@ -23,3 +23,16 @@ In the normal state, both inputs are at zeros. If the upper input receives a pul
 {% include image name="flip-flop2.png" width="50%" caption="Another implementation of flip-flop" %}
 
 This implementation has one benefit that it only uses two kinds of gate.
+
+### 1.3 Mass Storage
+
+#### Magnetic Systems
+
+Some parameters of a disk's performance:
+
+- *Seek time*: the time required to move [*heads*](https://en.wikipedia.org/wiki/Disk_read-and-write_head) from one track to another.
+- *Rotation delay* or *latency time*: *half* the time required for the disk to make a complete rotation. It is the average time required for the desired data to rotate around to the head once the head has been positioned over the desired track.
+- *Access time*: the sum of seek time and latency time.
+- *Transfer rate*: the rate at which data can be transferred to or from the disk.
+
+### 1.9 Data Compression
