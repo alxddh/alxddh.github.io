@@ -12,8 +12,6 @@ Here are my notes on [*Design Patterns: Elements of Reusable Object-Oriented Sof
 
 > This book isn't an introduction to object-oriented technology or design.
 
-[*Head First Object-Oriented Analysis and Design*](https://www.amazon.com/dp/0596008678) by Brett D. McLaughlin might be a good introduction book to OOP.
-
 > A word of warning and encouragement: Don't worry if you don't understand this book completely on the first reading. We didn't understand it all on the first writing! Remember that this isn't a book to read once and put on a shelf. We hope you'll find yourself referring to it again and again for design insights and for inspiration.
 
 Very humor.
