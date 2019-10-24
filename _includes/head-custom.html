@@ -43,8 +43,10 @@
     var hours = (new Date()).getHours();
     var node = document.createElement('link');
     node.rel = 'stylesheet';
-    if (hours >= 6 && hours < 18) {
+    if (hours >= 6 && hours < 16) {
         node.href = "{{ '/assets/css/skins/light.css' | relative_url }}";
+    } else if (hours >= 16 && hours < 19) {
+        node.href = "{{ '/assets/css/skins/sunset.css' | relative_url }}";
     } else {
         node.href = "{{ '/assets/css/skins/dark.css' | relative_url }}";
     }
