@@ -73,8 +73,8 @@ var a = {}    |        |
                   :
 ```
 
-## Primitive Types
+### Primitive Types
 
 The string in JavaScript is a primitive type, so we need to pay attention to the assignment of strings, that would make new copies. If these strings are very large, the space of memory may quickly be not enough.
 
-## reference Types
+### identifying reference Types
