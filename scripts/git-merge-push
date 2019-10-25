@@ -8,6 +8,6 @@ fi
 from=$1
 to=$2
 
-./git-merge $from $to
+./scripts/git-merge $from $to
 git push
 git checkout $from
