@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ -z "$1" -o -z "$2" ]
+then
+	echo "usage: $0 <from> <to>" >&2
+	exit 2
+fi
+
+from=$1
+to=$2
+
+./git-merge $from $to
+git push
+git checkout $from
