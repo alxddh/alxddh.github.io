@@ -33,3 +33,15 @@ A design pattern has four essential parts:
 
 ### Design Patterns in Smalltalk MVC
 
+> MVC decouples views and models by establishing a subscribe/notify protocol between them.
+
+How to implement the *subscribe/notify protocol*?
+
+> MVC encapsulates the response mechanism in a Controller object.
+> 
+> ...
+> 
+> A view uses an instance of a Controller subclass to implement a particular response strategy; to implement a different strategy, simply replace the instance with a different kind of controller.
+
+## A Case Study: Designing a Document Editor
+
