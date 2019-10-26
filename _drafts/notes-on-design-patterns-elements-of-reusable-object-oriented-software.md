@@ -45,3 +45,7 @@ How to implement the *subscribe/notify protocol*?
 
 ## A Case Study: Designing a Document Editor
 
+## Structural Patterns
+
+### Composite
+
