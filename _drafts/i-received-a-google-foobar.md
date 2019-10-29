@@ -98,5 +98,3 @@ def solution(n, b):
         ids.append(next)
         n = next
 ```
-
-The solution is easy. Instead, proving that the algorithm loops back is the difficult point.
