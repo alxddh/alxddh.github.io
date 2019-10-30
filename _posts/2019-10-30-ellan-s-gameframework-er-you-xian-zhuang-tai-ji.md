@@ -1,6 +1,7 @@
 ---
 title: "Ellan's GameFramework：（二）有限状态机"
 date: 2019-10-30 12:08:25 +0800
+last_modified_at: 2019-10-30 17:07:08 +0800
 categories: [Development Log]
 tags: [unity, game, csharp]
 ---
@@ -44,3 +45,4 @@ ChangeState(fsm, typeof(IdleState));
 ## 本系列其他篇章
 
 - [Ellan’s GameFramework：（一）架构](/2019/10/29/ellan-s-gameframework-yi-jia-gou.html)
+- [Ellan’s GameFramework：（三）流程](/2019/10/30/ellan-s-gameframework-san-liu-cheng.html)
