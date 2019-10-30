@@ -1,7 +1,7 @@
 ---
 title: "Ellan's GameFramework：（一）架构"
 date: 2019-10-29 15:42:39 +0800
-last_modified_at: 2019-10-30 11:35:47 +0800
+last_modified_at: 2019-10-30 12:09:21 +0800
 categories: [Development Log]
 tags: [unity, game, csharp]
 ---
@@ -189,3 +189,7 @@ private static void InitBuiltinComponents()
 {% include image name="game-entry.png" width="30%" %}
 
 其中 `GameFramework` 节点挂载的是 `BaseComponent`，其余节点则挂载了每个模块对应的组件。
+
+## 本系列其他篇章
+
+- [Ellan’s GameFramework：（二）有限状态机](/2019/10/30/ellan-s-gameframework-er-you-xian-zhuang-tai-ji.html)
