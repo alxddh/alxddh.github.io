@@ -1,6 +1,7 @@
 ---
 title: "Ellan's GameFramework：（一）架构"
 date: 2019-10-29 15:42:39 +0800
+last_modified_at: 2019-10-30 11:35:47 +0800
 categories: [Development Log]
 tags: [unity, game, csharp]
 ---
@@ -143,7 +144,7 @@ protected override void Awake()
 
 ## 如何使用
 
-为了更好地管理框架的内建组件和我的游戏中自定义的组件，我自己又创建了一个 `GameEntry`，放在 `Thor.Base` 命名空间内：
+为了更好地管理框架的内建组件和我的游戏中自定义的组件，我自己又创建了一个 `GameEntry`，放在 `Thor.Game.Base` 命名空间内：
 
 ```c#
 public partial class GameEntry : MonoBehaviour
