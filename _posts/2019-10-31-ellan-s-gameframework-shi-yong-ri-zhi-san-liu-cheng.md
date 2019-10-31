@@ -1,6 +1,7 @@
 ---
 title: "Ellan's GameFramework 使用日志：（三）流程"
 date: 2019-10-31 19:53:53 +0800
+last_modified_at: 2019-10-31 20:36:37 +0800
 categories: [Log]
 tags: [unity, game, csharp]
 ---
@@ -50,3 +51,5 @@ public void StartProcedure<T>() where T : ProcedureBase
 
 - [Ellan's GameFramework 使用日志：（一）框架架构](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-yi-kuang-jia-jia-gou.html)
 - [Ellan's GameFramework 使用日志：（二）有限状态机](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-er-you-xian-zhuang-tai-ji.html)
+- [Ellan's GameFramework 使用日志：（四）事件](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-si-shi-jian.html)
+
