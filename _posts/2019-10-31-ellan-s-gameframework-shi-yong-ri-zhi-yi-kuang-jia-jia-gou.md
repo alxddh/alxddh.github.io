@@ -178,3 +178,7 @@ public sealed class BaseComponent : GameFrameworkComponent
 ```
 
 因此，为了使用这个框架，你必须在游戏中创建一个节点，它挂载着 `BaseComponent`，而其余模块的组件都是可选地存在的。当你想使用一个模块时，如 `ConfigComponent`，只需创建一个节点，并把 `ConfigComponent` 挂到它身上，再把节点扔到场景中。
+
+## 本系列其他篇章
+
+- [Ellan's GameFramework 使用日志：（二）有限状态机](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-er-you-xian-zhuang-tai-ji.html)
