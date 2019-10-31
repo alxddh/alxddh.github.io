@@ -1,7 +1,7 @@
 ---
 title: "基于贝叶斯平均对豆瓣图书的搜索结果进行排序"
 date: 2019-10-09 16:59:33 +0800
-categories: [Development Log]
+categories: [Log]
 tags: [javascript, douban, books, bayesian average]
 ---
 

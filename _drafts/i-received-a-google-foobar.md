@@ -1,6 +1,6 @@
 ---
 title: "I Received a Google Foobar"
-categories: [Development Log]
+categories: [Log]
 tags: [interview, google]
 ---
 
