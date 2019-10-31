@@ -1,7 +1,7 @@
 ---
 title: "Ellan's GameFramework 使用日志：（一）框架架构"
 date: 2019-10-31 17:18:29 +0800
-last_modified_at: 2019-10-31 19:54:59 +0800
+last_modified_at: 2019-10-31 20:37:12 +0800
 categories: [Log]
 tags: [unity, game, csharp]
 ---
@@ -184,3 +184,4 @@ public sealed class BaseComponent : GameFrameworkComponent
 
 - [Ellan's GameFramework 使用日志：（二）有限状态机](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-er-you-xian-zhuang-tai-ji.html)
 - [Ellan's GameFramework 使用日志：（三）流程](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-san-liu-cheng.html) 
+- [Ellan's GameFramework 使用日志：（四）事件](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-si-shi-jian.html) 
