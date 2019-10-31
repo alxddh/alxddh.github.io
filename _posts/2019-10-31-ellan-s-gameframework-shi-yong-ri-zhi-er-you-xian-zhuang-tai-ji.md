@@ -1,6 +1,7 @@
 ---
 title: "Ellan's GameFramework 使用日志：（二）有限状态机"
 date: 2019-10-31 19:37:40 +0800
+last_modified_at: 2019-10-31 19:54:37 +0800
 categories: [Log]
 tags: [unity, game, csharp]
 ---
@@ -110,3 +111,4 @@ internal void ChangeState(Type stateType)
 ## 本系列其他篇章
 
 - [Ellan's GameFramework 使用日志：（一）框架架构](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-yi-kuang-jia-jia-gou.html)
+- [Ellan's GameFramework 使用日志：（三）流程](/2019/10/31/ellan-s-gameframework-shi-yong-ri-zhi-san-liu-cheng.html)
