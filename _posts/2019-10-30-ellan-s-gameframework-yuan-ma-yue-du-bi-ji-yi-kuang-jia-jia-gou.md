@@ -1,6 +1,7 @@
 ---
 title: "Ellan's GameFramework 源码阅读笔记：（一）框架架构"
 date: 2019-10-30 21:02:01 +0800
+last_modified_at: 2019-10-31 11:10:27 +0800
 categories: [Notes]
 tags: [unity, game, csharp]
 ---
@@ -161,3 +162,4 @@ private void Update()
 
 - [Ellan’s GameFramework 源码阅读笔记](/2019/10/30/ellan-s-gameframework-yuan-ma-yue-du-bi-ji.html)
 - [Ellan's GameFramework 源码阅读笔记：（一）框架架构](/2019/10/30/ellan-s-gameframework-yuan-ma-yue-du-bi-ji-yi-kuang-jia-jia-gou.html)
+- [Ellan's GameFramework 源码阅读笔记：（二）事件](/2019/10/31/ellan-s-gameframework-yuan-ma-yue-du-bi-ji-er-shi-jian.html) 
