@@ -1,12 +1,12 @@
 ---
 title: "UnityGameFramework 源码阅读笔记：（三）事件"
 date: 2019-11-04 15:29:18 +0800
-last_modified_at: 2019-11-04 19:43:39 +0800
+last_modified_at: 2019-11-04 20:18:49 +0800
 categories: [Notes]
 tags: [unity, game, csharp]
 ---
 
-因最近要为公司开发一款 3D 扫雷游戏，我采用了 [Ellan](https://github.com/EllanJiang) 开发的 [UnityGameFramework](https://gameframework.cn/) 作为我的开发框架。为了更好地使用它，我决定来一次源码阅读，并做些笔记。这篇是第一篇，关注框架的事件模块。
+因最近要为公司开发一款 3D 扫雷游戏，我采用了 [Ellan](https://github.com/EllanJiang) 开发的 [UnityGameFramework](https://gameframework.cn/) 作为我的开发框架。为了更好地使用它，我决定来一次源码阅读，并做些笔记。这一篇关注框架的事件模块。
 
 事件模块实现了事件的监听-触发机制，可以令游戏的各个模块大大解耦。
 
