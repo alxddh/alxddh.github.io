@@ -22,6 +22,9 @@ author:
     - title: GitHub
       url: https://github.com/alxddh
       icon: fab fa-github-square
+    - title: Instagram
+      url: https://www.instagram.com/alexanderdhuang/
+      icon: fab fa-instagram
 
 defaults:
   - scope:
