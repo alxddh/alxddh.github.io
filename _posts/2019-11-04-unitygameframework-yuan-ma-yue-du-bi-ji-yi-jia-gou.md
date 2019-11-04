@@ -1,6 +1,7 @@
 ---
 title: "UnityGameFramework 源码阅读笔记：（一）架构"
 date: 2019-11-04 11:56:34 +0800
+last_modified_at: 2019-11-04 14:45:28 +0800
 categories: [Notes]
 tags: [unity, game, csharp]
 ---
@@ -83,3 +84,8 @@ private void OnDestroy()
     GameFrameworkEntry.Shutdown();
 }
 ```
+
+## 本系列全部文章
+
+- [UnityGameFramework 源码阅读笔记：（一）架构](/2019/11/04/unitygameframework-yuan-ma-yue-du-bi-ji-yi-jia-gou.html)
+- [UnityGameFramework 源码阅读笔记：（二）引用池](/2019/11/04/unitygameframework-yuan-ma-yue-du-bi-ji-er-yin-yong-chi.html)
