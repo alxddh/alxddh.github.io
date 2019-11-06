@@ -7,6 +7,8 @@ let books = [];
 
 let searchURL;
 
+let minRaters = 1;
+
 let booksRead = 0;
 
 function sortBooks(keywords)
@@ -18,6 +20,12 @@ function sortBooks(keywords)
     var ul = document.getElementById("search-result-list");
     while (ul.firstChild) {
         ul.removeChild(ul.firstChild);
+    }
+
+    var minRatersInput = document.getElementById("minimum-raters-input");
+    var value = parseInt(minRatersInput.value);
+    if (!isNaN(value)) {
+        minRaters = value;
     }
 
     books = [];
@@ -51,7 +59,7 @@ function jsonpCallback(page)
     }
 
     page['books'].forEach(book => {
-        if (parseFloat(book['rating']['average']) > 0) {
+        if (book['rating']['numRaters'] >= minRaters) {
             books.push(book);
         }
     });
