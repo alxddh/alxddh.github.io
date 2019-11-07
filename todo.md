@@ -13,6 +13,10 @@ permalink: /todo/
 
 - [A to-do list for learning mathematics](https://github.com/alxddh/learnmath)
 
+## Physics
+
+- [A to-do-list for learning physics](https://github.com/alxddh/learnphysics)
+
 ## Philosophy
 
 - [A to-do list for learning philosophy](https://github.com/alxddh/learnphilosophy)
