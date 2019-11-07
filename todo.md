@@ -12,3 +12,7 @@ permalink: /todo/
 ## Mathematics
 
 - [A to-do list for learning mathematics](https://github.com/alxddh/learnmath)
+
+## Philosophy
+
+- [A to-do list for learning philosophy](https://github.com/alxddh/learnphilosophy)
