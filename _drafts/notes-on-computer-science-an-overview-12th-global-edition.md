@@ -20,6 +20,16 @@ The study of algorithms forms the core of computer science.
 
 ### 0.4 The Overarching Themes of Computer Science
 
+[*Seven Big Ideas of Computer Science*](https://apstudents.collegeboard.org/courses/ap-computer-science-principles):
+
+1. Algorithms
+2. Abstraction
+3. Creativity
+4. Data
+5. Programming
+6. Internet
+7. Impact
+
 ## Chapter 1  Data Storage
 
 ### 1.1 Bits and Their Storage
