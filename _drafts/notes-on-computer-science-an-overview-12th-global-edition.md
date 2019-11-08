@@ -34,6 +34,30 @@ The study of algorithms forms the core of computer science.
 
 ### 1.1 Bits and Their Storage
 
+#### Gates and Flip-Flops
+
+A *gate* is a physical device that performs a Boolean operation on one or more binary inputs and produces a single binary output. Gates are building blocks of computers.
+
+A *flip-flop* is a fundamental unit of computer memory. It can be viewed as a black box with two inputs and an output. In the normal state, both inputs are at zeros, and the output can be 0 or 1. When a *pulse* (a temporary change to a 1 that returns to 0) is sent to the upper input, the output value would shift to 1 and then remains constant. Similarly, when a pulse is sent to the lower input, the output value would shift to 0 and then remains constant. That's the means of remembering.
+
+```
+Upper Input    +-----------+
+        +------+           |
+               |           +-----+ Output
+        +------+           |
+Lower Input    +-----------+
+```
+
+How to implement a flip-flop?
+
+{% include image name="flip-flop1.png" width="30%" %}
+
+In the normal state, `X` and `Y` are zeros, so we can quickly know that `A = 1`. Because `B = A AND Z`, we know that `B` is equal to `Z`. Because `Z = X OR B`, we know that `Z` is equal to `B`. It is consistent. When `X` shifts to `1`, `Z` would shift to `1`, and so that `B` shifts to `1`; Then `X` backs to `0`, while `Z` would remain at `1`. When `Y` shifts to `1`, `A` would shift to `0`, and so that `B` shifts to `0`, and `Z` shifts to `0`; Then `Y` backs to `0`, so that `A` shifts to `1`, but that won't affect the value of `Z`. 
+
+There is another implementation that only uses two kinds of gate:
+
+{% include image name="flip-flop2.png" width="40%" %}
+
 ### 1.2 Main Memory
 
 ### 1.3 Mass Storage
