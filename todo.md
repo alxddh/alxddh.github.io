@@ -20,3 +20,11 @@ permalink: /todo/
 ## Philosophy
 
 - [A to-do list for learning philosophy](https://github.com/alxddh/learnphilosophy)
+
+## Literature
+
+- [A trip to world literature](https://github.com/alxddh/literature-trip)
+
+## History
+
+- [A trip to world history](https://github.com/alxddh/history-trip)
