@@ -2,7 +2,7 @@ locale: en
 title: Alexander D Huang's Homepage
 description: Enjoy writing
 url: https://alxddh.github.io
-#logo: /logo.png
+logo: /logo.svg
 date_format: "%b %d %Y"
 read_time: false
 words_per_minute: 200
