@@ -11,7 +11,7 @@ image: https://img3.doubanio.com/view/subject/l/public/s3224520.jpg
 
 ## 1. Recurrent Problems
 
-### 1.1 The Tower of Hanoi
+### The Tower of Hanoi
 
 The Tower of Hanoi is a puzzle game invented by the French mathematician [Édouard Lucas](https://en.wikipedia.org/wiki/%C3%89douard_Lucas) in 1883. It can be desribed as that we are given a tower of $n$ disks, initially stacked in decreasing size on one of three pegs; The objective is to transfer the entire tower to one of the other pegs, moving only one disk at a time and never moving a larger one onto a smaller.
 

@@ -11,7 +11,7 @@ image: https://img1.doubanio.com/view/subject/l/public/s7035217.jpg
 
 ## 1 The Genesis of Fourier Analysis
 
-### 1 The vibrating string
+### The vibrating string
 
 #### Simple harmonic motion
 
