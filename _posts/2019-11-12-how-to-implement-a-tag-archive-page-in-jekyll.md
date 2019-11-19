@@ -1,7 +1,7 @@
 ---
 title: "How to Implement a Tag Archive Page in Jekyll"
 date: 2019-11-12 17:31:47 +0800
-categories: [Notes]
+categories: [How-tos]
 tags: [jekyll, liquid]
 ---
 
