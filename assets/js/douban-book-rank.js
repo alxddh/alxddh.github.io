@@ -101,10 +101,10 @@ function showBooks() {
     const progress = document.getElementById("searching-progress");
     progress.hidden = true;
 
-    const ul = document.getElementById("search-result-list");
+    const ol = document.getElementById("search-result-list");
     for (let book of books) {
         const li = document.createElement("li");
-        ul.appendChild(li);
+        ol.appendChild(li);
 
         const a = document.createElement("a");
         a.href = book['alt'];
