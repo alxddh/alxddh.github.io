@@ -10,5 +10,7 @@ Here are the notes I took on [Christian Nagel](https://csharp.christiannagel.com
 
 ## Part I. The C# Language
 
-### Chapter 1 .NET Applications and Tools
+### Chapter 2. Core C#
+
+
 
