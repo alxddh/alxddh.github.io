@@ -1,6 +1,7 @@
 ---
 title: "How to Implement a Tag Archive Page in Jekyll"
 date: 2019-11-12 17:31:47 +0800
+last_modified_at: 2019-11-26 19:22:16 +0800
 categories: [How-tos]
 tags: [jekyll, liquid]
 ---
@@ -15,7 +16,7 @@ Ignoring the style, we can see that each label has a tag name and the count of t
 
 > Talk is cheap. Show me the code.
 > 
-> -- [Linus](https://lkml.org/lkml/2000/8/25/132)
+> <footer><a href="https://lkml.org/lkml/2000/8/25/132">Linus</a></footer>
 
 OK, I show you the code now:
 
