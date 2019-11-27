@@ -1,7 +1,7 @@
 ---
 title: "How to Implement Conversions between Strings and Numbers in Different Programming Languages?"
 categories: [How-tos]
-tags: [programming]
+tags: [programming, java, c]
 ---
 
 This post shows some examples of conversions between strings and numbers in many different popular programming languages. I think these examples are useful because the task is so frequent in daily coding works.
@@ -57,3 +57,21 @@ This post shows some examples of conversions between strings and numbers in many
         String string2 = new Double(number).toString();
         String string3 = String.valueOf(number);
         ```
+
+## C
+
+- String to integer
+
+    ```c
+    const char *str;
+    int integer = atoi(str);
+    long long_integer = atol(str);
+    long long ll_integer = atoll(str);
+    ```
+
+- String to floating point
+
+    ```c
+    const char *str;
+    double number = atof(str);
+    ```
