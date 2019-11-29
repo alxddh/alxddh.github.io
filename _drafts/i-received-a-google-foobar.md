@@ -1,7 +1,7 @@
 ---
 title: "I Received a Google Foobar"
 categories: [Logs]
-tags: [interview, google]
+tags: [interview, google, python]
 ---
 
 On 29th October 2019, I received a Google Foobar Invitation. Here are the solutions I gave for the 5 levels of question.
