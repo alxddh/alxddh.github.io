@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 
-I am a game programmer living in [Shenzhen, China](https://goo.gl/maps/CDDVAPbu8baSga4cA). My major in college is [applied physics](https://en.wikipedia.org/wiki/Applied_physics), even now my job is no relationship to it, I still keep a strong interest in physics and mathematics. Besides, I am a literature lover.
+I am a game programmer living in [Shenzhen, China](https://goo.gl/maps/CDDVAPbu8baSga4cA). My major in college was [applied physics](https://en.wikipedia.org/wiki/Applied_physics), even now my job is no relationship to it, I still keep a strong interest in physics and mathematics. Besides, I am a literature lover.
 
 I have two cats:
 
