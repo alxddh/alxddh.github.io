@@ -1,7 +1,7 @@
 ---
 title: "UGF 源码阅读笔记：（1）安装"
 categories: [Code Reading]
-tags: [unity, game, csharp]
+tags: [unity, game development, csharp]
 date: 2019-11-15 17:32:09 +0800
 last_modified_at: 2019-11-29 14:11:13 +0800
 ---
