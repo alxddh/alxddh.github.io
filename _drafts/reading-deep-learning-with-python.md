@@ -60,3 +60,36 @@ $ sudo pip3 install keras
 The definition of the field of AI:
 
 > The effort to automate intellectual tasks normally performed by humans.
+
+##### 1.1.2 Machine learning
+
+What is machine learning?:
+
+> A machine-learning system is *trained* rather than explicitly programmed. It’s presented with many examples relevant to a task, and it finds *statistical structure* in these examples that eventually allows the system to come up with rules for automating the task.
+
+Can I say that the essence of machine learning is statistics?
+
+##### 1.1.3 Learning representations from data
+
+What’s a representation?:
+
+> At its core, it’s a different way to look at data -- to *represent* or *encode* data.
+
+Sometimes, a representation is better than another one for understanding. The author gives an example of coordinate change:
+
+{% include image name="coordinate-change.png" %}
+
+What’s learning?:
+
+> *Learning*, in the context of machine learning, describes an automatic search process for better representations.
+
+In fact, it's also an aspect of human learning.
+
+> Machine-learning algorithms aren’t usually creative in finding these transformations; they’re merely searching through a predefined set of operations, called a *hypothesis space*.
+
+But human learning is creative.
+
+What’s a representation technically?:
+
+> So that’s what machine learning is, technically: searching for useful representations of some input data, within a predefined space of possibilities, using guidance from a feedback signal.
+
