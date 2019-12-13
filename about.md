@@ -17,3 +17,5 @@ I have two cats:
   <img src="{{ "/assets/image/little-blue.jpg" | absolute_url }}" width="40%"/>
   <figcaption>小蓝猫, a British Blue Shorthair</figcaption>
 </figure>
+
+Want to watch my [developer story](https://stackoverflow.com/story/alxddh)?
